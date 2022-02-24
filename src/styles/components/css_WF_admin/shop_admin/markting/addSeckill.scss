@@ -1,0 +1,73 @@
+.wf-markting-addSeckill{
+    background-color: #fff;
+    padding: 20px;
+    .my_table{
+        .el-table__header-wrapper{
+            th {
+                background-color: rgb(243, 243, 243);
+            }
+        }
+        .el-table__body-wrapper{
+            tr {
+                background-color: rgb(250, 250, 250);
+            }
+        }
+       
+    }
+    
+    .label-left .el-form-item__label{
+        margin-left: 10px;
+    }
+    .el-form-item--mini{
+        margin-bottom: 1.5625rem;
+    }
+    .input_width{
+        width: 10rem;
+        height: 2rem;
+    }
+    .rule_btn{
+        margin-bottom: 1.8rem;
+        font-size: 1rem;
+    }
+    .rule_guize{
+        margin-right: 1.4375rem;
+    }
+    .upload-demo{
+        display: inline-block;
+    }
+    .upload-demo div,.upload-demo li{
+       width: 3.875rem ;
+       height: 3.875rem ; 
+    }
+    .group_price_input{
+        width: 6rem;
+        margin-right: 0.625rem;
+    }
+    .upload_img{
+        position: relative;
+        top: -40px;
+        left: 1px;
+    }
+    .el-form-item__content{
+        margin-left: 10.625rem !important;
+    }
+    .el-upload-list--picture-card .el-upload-list__item{
+        margin: 0 1.6875rem  8px 0;
+    }
+    .tablelist{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .wf-addSeckill-Shop-row{
+        padding: 0 1rem 2rem 5rem;
+        .wf-addCoupon-Shop-col-6{
+            margin-left: 2rem;
+        }
+    }
+    .wf-addSeckill-Shop-searchShop{
+        margin-left: 35px;
+    }
+    .wf-addSeckill-Shop-col-5{
+        margin-right: 30px;
+    }
+}

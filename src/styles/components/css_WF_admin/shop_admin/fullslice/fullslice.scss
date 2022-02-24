@@ -1,0 +1,106 @@
+.wf-addFullslice{
+    background-color: #fff;
+    padding: 20px;
+    /deep/ .wf-delete{
+        color: #e67e7a;
+    }
+    .wf-cap-one{
+        margin-top: 15px;
+        .wf-right{
+            margin-left: 50px;
+        }
+    }
+    .wf-help{
+        color: #b1b1b1;
+        font-size: 14px;
+    }
+    .wf-title{
+        width: 100%;
+        height: 35px;
+        background-color: #f3f3f3;
+        line-height: 35px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        padding-left: 8px;
+        font-size: 16px;
+    }
+    .wf-capInfo-loop{
+        border: 1px solid #f3f3f3;
+        .wf-active-input{
+            margin-top: 20px;
+        }
+    }
+    .wf-cap_info{
+        .wf-delete{
+            float: right;
+        }
+    }
+    .wf-classify-table{
+        max-width: 1080px;
+        /deep/ {
+            .el-table__header-wrapper{
+                thead{
+                    th{
+                        ackground-color: #f3f3f3;
+                    }
+                }
+            }
+        }
+    }
+    .wf-add-btn{
+        color: #2a94ff;
+        width: 120px;
+        border: 1px dashed #ccc;
+        margin: 12px 0;
+        cursor: pointer;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-left: 1px;
+        &:hover{
+            border: 1px dashed #5a9cff;
+            color:#5a9cff;
+        }
+        label{
+            cursor: pointer;
+        }
+    }
+    .wf-addCoupon-s{
+        margin-top: 8px;
+        display: block;
+        .wf-cap_info{
+            border: 1px solid #f3f3f3;
+            .wf-title-info{
+                width: 100%;
+                height: 35px;
+                background-color: #f3f3f3;
+                line-height: 35px;
+                margin-left: 0px;
+                margin-bottom: 20px;
+                font-size: 16px;
+                label{
+                    margin-left: 20px;
+                }
+            }
+        }
+        .wf-addCoupon-s-btn{
+            margin-left: 20px;
+            padding: 6px 37px;
+        }
+        .wf-addCoupon-s-tag{
+            margin-left: 5px;
+        }
+    }
+    .wf-addCoupon-s .el-radio{
+        margin-bottom: 20px;
+    }
+    .wf-newRadio{
+        margin-top: 15px;
+    }
+    .wf-active-cap_info-input{
+        width: 190px;
+        padding: 0 10px;
+    }
+    .wf-my_Discount{
+        padding-left: 15px;
+    }
+}

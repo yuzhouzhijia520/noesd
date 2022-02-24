@@ -1,0 +1,172 @@
+.wf-addCoupon{
+    background-color: #fff;
+    padding: 20px;
+    .el-form--label-righ{
+        .el-form-item--mini{
+            .el-form-item__content{
+                /deep/.el-form-item__error{
+                    left: 18px;
+                   //  padding-top: 0;
+                }
+            }
+        }
+    }
+    
+    /deep/ .el-select{
+        .el-input__inner{
+            text-align: center;
+        }
+    }
+    .wf-textareaVaild{
+        position: absolute;
+        // float: right;
+        right: -86%;
+        top: 2px;
+        color: #ccc;
+        height: 0;
+    }
+    
+    .showlisttxt_img{
+        width: 325px;
+        height: 246px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 19px;
+    }
+    
+    .showlisttxt{
+        width:385px;
+        height:44px;
+        font-size:16px;
+        font-family:MicrosoftYaHei;
+        margin: 0 auto;
+        text-align: center;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+    }
+    .buttonguanli{
+         color: #719FF8;
+         border: none;
+          background: none;
+          font-size: 14px;
+         &:hover{
+             background: none;
+         }
+    }
+    .buttonguanlis{
+        border: none;
+        color: #999;
+          background: none;
+          font-size: 12px;
+         &:hover{
+             background: none;
+         }
+    }
+    .avatar-uploader .el-upload {
+        border: 1px dashed #d9d9d9;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .avatar-uploader .el-upload:hover {
+        border-color: #409EFF;
+    }
+    .avatar-uploader-icon {
+        font-size: 28px;
+        color: #8c939d;
+        width: 80px;
+        height:80px;
+        line-height: 80px;
+        text-align: center;
+        border: 1px dashed #d9d9d9;
+
+    }
+    .avatar {
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    .wf-edit{
+    border:none;
+    width: 630px;
+    /deep/ .quill-editor{
+        .ql-tooltip.ql-editing{
+            left: 0px !important;
+            top: 55px !important;
+        }
+        .ql-toolbar{
+            position: absolute;
+            top: 0px;
+            width: 615px;
+            z-index: 2;
+        }
+        
+        .ql-container{
+            padding-top: 50px;
+            // border: 1px solid #ccc;
+            margin-right: -15px;
+            // margin-top: 83px;
+            // width: 400px;
+        }
+    }
+    }
+    
+    .el-form-item--mini{
+        margin-bottom: 25px;
+        .wf-addCoupon-coupon_name{
+            padding-left: 0 !important;
+            position: relative;
+        }
+        .wf-addCoupon-expire_time{
+            padding-left: 0 !important;
+        }
+        .wf-addCoupon-s{
+            margin-top: 8px;
+            .wf-addCoupon-s-btn{
+                margin-left: 20px;
+                padding: 6px 37px;
+            }
+            .wf-addCoupon-s-tag{
+                margin-left: 5px;
+            }
+        }
+        .wf-addCoupon-s .el-radio{
+            margin-bottom: 20px;
+        }
+        .wf-addCoupon-date-type{
+            margin-top: -25px;
+        }
+        .wf-addCoupon-classify-el{
+            input{
+                width: 124px;
+                margin-left: 20px;
+                padding-left: 38px;
+            }
+        }
+    }
+    .wf-addCoupon-Shop{
+        .wf-addCoupon-Shop-row{
+            padding: 0 22px 36px 60px;
+            .wf-addCoupon-Shop-col-6{
+                margin-left: 68px;
+            }
+        }
+        .wf-addCoupon-Shop-searchShop{
+            margin-left: 35px;
+        }
+    }
+    .quill-editor{
+            height: 250px;
+            width: 600px;
+            // margin-left: -15px;
+            .ql-toolbar{
+                position: absolute;
+            }
+            .ql-container{
+                padding-top: 88px;
+            }
+        }
+        
+}
+

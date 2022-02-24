@@ -1,0 +1,236 @@
+.clear>div{
+    float:left;
+}
+.clear::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+div .left{
+    float:left;
+}
+div .right{
+    float:right;
+}
+
+
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-family: "Microsoft Yahei",sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 0px;  
+    height: 0px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+/* ::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+   */
+/*定义滑块 内阴影+圆角*/  
+/* ::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #555;  
+}   */
+
+input[type="button"], input[type="submit"], input[type="search"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea { -webkit-appearance: none;}   
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#DFDFDF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #DFDFDF;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #DFDFDF;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #DFDFDF;
+}
+input:focus { outline: none; } 
+
+
+#nav_fixed{
+    position:fixed;
+    top:0;
+    /* width:100%; */
+    box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+    background:#fff;
+    z-index:100;
+    left:0;
+    right:0;
+}
+ .hover_bg:hover{   /*蓝色背景白色字 */
+    background:#2288fe;
+}
+.hover:hover{      /*灰色边框黑色字 */
+    background:#f6f6f6;
+    /* color:#fff; */
+    border:1px solid #e8e8e8;
+}
+.hover_text:hover{    /*白色背景蓝色字 */
+    color:#2288fe;
+    /* background:red; */
+}
+
+/**********************************************按钮开始**********************************************************/
+.el-wf-preservation-buttton{/*保存,编辑添加按钮*/
+        background: #719FF8;
+        color: #fff;
+        text-align: center;
+}
+.el-wf-preservation-buttton:hover{/*保存,编辑添加按钮鼠标经过*/
+    color: #fff;
+    background: #719FF8;
+}
+.el-wf-delogsure-buttton{/*弹窗里的确认按钮*/
+        width:120px;
+        height: 46px;
+        background: #719FF8;
+        color: #fff;
+        text-align: center;
+}
+.el-wf-preservation-buttton:focus{/*弹窗里的确认按钮鼠标经过*/
+    background: #4481f9;
+    color:#fff;
+    border-color:#4481f9;
+}
+.el-wf-preservation-buttton:active{/*弹窗里的确认按钮鼠标经过*/
+    background: #719FF8;
+    color:#fff;
+    border-color:#719FF8;
+}
+/**********************************************按钮结束**********************************************************/
+/**********************************************搜索框**********************************************************/
+.el-input__inner:hover{
+    border:1px solid #719ff8;
+}
+.el-wf-search-input{/*搜索输入框*/
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    border:1px solid #ccc;
+    padding: 0 20px;
+    color: #333;
+}
+/**********************************************下拉框**********************************************************/
+.el-wf-select-buttton .el-input__inner{
+    color: #333;
+    border:1px solid #ccc;
+    font-size: 14px;
+}
+.el-wf-select-buttton .el-input__inner:hover{
+    border:1px solid #719ff8;
+    font-size: 14px;
+
+}
+/**********************************************下拉框结束**********************************************************/
+
+/**********************************************搜索框结束**********************************************************/
+/**********************************************字体规范**********************************************************/
+.el-wf-firsttitle{/*提示性文字*/
+    font-size: 30px;
+    font-weight: none;
+}
+.el-wf-firsttitle{/*一级标题*/
+    font-size: 20px;
+    font-weight: none;
+}
+.el-wf-twotitle{/*二级标题，卡片标题*/
+    font-size: 16px;
+    font-weight: none;
+}
+.el-wf-txttitle{/*文字内容信息*/
+    font-size: 14px;
+    font-weight: none;
+}
+.el-wf-auxiliary{/*辅助性文字*/
+    font-size: 12px;
+    font-weight: none;
+}
+/**********************************************字体规范结束**********************************************************/
+.el-button--small {
+    font-size: 14px;
+}
+/**********************************************页签**********************************************************/
+
+/**********************************************页签结束**********************************************************/
+
+/**********************************************button规范**********************************************************/
+.el-button--mini, .el-button--mini.is-round {
+    padding: 9px 15px;
+}
+
+.el-input--mini .el-input__inner {
+    height: 32px;
+    line-height: 32px;
+}
+.el-range-editor--mini{
+    height: 32px !important;
+    line-height: 32px;
+}
+.el-form-item__label{
+    line-height: 32px;
+}
+.el-form-item__content{
+    line-height: 32px;
+}
+
+/**********************************************位置设置**********************************************************/
+.wf-public-center{
+    text-align: center;
+}
+
+.wf-textareaVaild{
+    position: relative;
+    float: right;
+    right: 12px;
+    top: -32px;
+    color: #ccc;
+    height: 0;
+}
+.wf-textareaVaild-input input{
+    padding-right: 55px;
+}
+
+.wf-com-red-text{
+    color: #e36f6b;
+}
+.el-message-box__status.el-icon-warning{
+    color: rgb(245, 189, 0)
+}
+
+/*下拉框长度限制*/
+.wf-goods-group{
+    max-width: 678px;
+}

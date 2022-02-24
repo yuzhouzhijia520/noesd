@@ -1,0 +1,246 @@
+.wf-membershipCard{
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    // 复用样式
+    .clear{
+        clear: both;
+        .wf-vip-card{
+            margin: 20px 33px 20px 0;
+        }
+    }
+    .clear>div{
+        float: left;
+    }
+    .radius{
+        border-radius: 4px;
+    }
+    .wf-textBtn-primary{
+        color: #719FF8;
+    }
+    .wf-textBtn-danger{
+        color: #E36F6B;
+    }
+    .wf-title{
+        color: #E36F6B;
+        margin-bottom: 20px;
+    }
+    .el-button + .el-button,.el-input + .el-button{
+        margin-left: 20px;
+    }
+    .el-button--text{
+        padding: 8px 0;
+        width: inherit;
+    }
+    .wf-button-default{
+        border-color: #719FF8;
+        color: #719FF8;
+        &:hover,&:focus{
+            background: inherit
+        }
+    }
+    .wf-button-primary{
+        background: #719FF8;
+    }
+    .wf-font-info{
+        color:#999;
+        font-size:12px;
+        margin: 10px 0;
+    }
+    .dialog-footer{
+        text-align: center;
+    }
+    /deep/ .wf_pagination{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    // 卡片样式
+    .wf-card-type{
+        width: 100%;
+        height: 60px;
+        background: #F8F8F8;
+        line-height: 60px;
+        padding-left: 20px;
+        color: #333;
+    }
+    .wf-card-type.margin-bottom{
+        margin-bottom: 20px;
+    }
+    .wf-add_card{
+        width: 345px;
+        height: 160px;
+        text-align: center;
+        background: #EDEDED;
+        padding-top: 50px;
+        box-sizing: border-box;
+        color: #666;
+        cursor: pointer;
+        .el-icon-plus{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .wf-addCard-text{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
+    .wf-vip-card{
+        .wf-card{
+            width: 345px;
+            height: 160px;
+            padding: 15px 10px;
+            box-sizing: border-box;
+            font-size: 12px;
+            background-size: 345px 160px!important;
+            background-repeat: no-repeat!important;
+            background-position: 50% 50%!important;
+            .clear{
+                .card-left{
+                    width: 250px;
+                    .h1{
+                        margin-bottom: 16px;
+                        font-weight:bold;
+                    }
+                    .h2{
+                        position: relative;
+                        top: 10px;
+                    }
+                }
+                .card-right{
+                    float: right;
+                    div{
+                        text-align: center;
+                        img{
+                            max-width: 70px;
+                            max-height: 70px;
+                            height:auto;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                .first-font{
+                    font-size: 18px;
+                }
+                .second-font{
+                    font-size: 16px;
+                    font-weight:bold;
+                }
+            }
+        }
+    }
+    .wf-vip-card-edit{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #F0F0F0;
+    }
+    .wf-card-edit{
+        border-radius: 10px;
+    }
+    /deep/ .el-dialog__header{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #F0F0F0;
+    }
+    /deep/ .el-dialog__body{
+        padding: 0 0 20px 0;
+    }
+
+    // 表单内部样式
+    .el-form{
+        padding: 20px 20px 20px 0;
+        .card-name-input{
+            /deep/ .el-form-item__label{
+                height: 32px;
+                line-height: 32px;
+            }
+            .el-input{
+                width: 300px;
+                line-height: 32px;
+                /deep/ input{
+                    height: 32px;
+                }
+            }
+        }
+        .card-logo-upload{
+            /deep/ .el-form-item__label{
+                line-height: 80px;
+            }
+        }
+        .card-cover-select{
+            /deep/ .el-form-item__label{
+                line-height: 20px;
+            }
+        }
+        .card-input-number{
+            .el-input-number{
+                width: 140px;
+                margin-right: 20px;
+            }
+        }
+        .card-offer-inputNumber{
+            .el-input-number,.el-button,.el-input{
+                width: 140px;
+                margin-right: 20px;
+                margin-left: 15px;
+            }
+            .edit-btn{
+                margin: 0;
+                width: 0;
+            }
+            /deep/ .el-checkbox__label{
+                padding-left: 5px;
+            }
+        }
+        /deep/ .card-instructions{
+            .el-textarea__inner{
+                width: 400px;
+                height: 80px!important;
+            }
+        }
+    }
+    .spacing{
+        margin-bottom: 20px;
+    }
+    .label-left{
+        
+    }
+    /deep/ .el-form-item__content{
+        line-height: normal;
+        margin-left: 130px!important;
+    }
+    .cupon-dialog{
+        /deep/ .el-dialog__body{
+            padding: 10px 20px 10px 20px;
+        }
+    }
+    /deep/ .el-input-number,/deep/ .el-input,/deep/ .el-select{
+        .el-input__inner{
+            height: 32px!important;
+        }
+        .el-input__icon{
+            line-height: 32px;
+        }
+    }
+    // 图片上传样式
+    .avatar-uploader .el-upload {
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .avatar-uploader-icon {
+        border-radius: 4px;
+        background: #F8F8F8;
+        font-size: 28px;
+        color: #D6D6D6;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+    }
+    .avatar {
+        border-radius: 4px;
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+}

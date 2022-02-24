@@ -1,0 +1,84 @@
+.wf-DIY-bargainStyle{
+    .wf-wfGoodsListStyle-row{
+        margin-bottom: 20px;
+    }
+    .wf-wfGoodsListStyle-col{
+        padding-right: 10px;
+       
+    }
+    .wf-wfGoodsListStyle-col.active{
+        .wf-wfGoodsListStyle-one{
+            border: 2px dashed #67bdff;
+            border-radius: 4px;
+        }
+        .wf-wfGoodsListStyle-two{
+            border: 2px dashed #67bdff;
+            border-radius: 4px;
+        }
+        .wf-wfGoodsListStyle-three{
+            border: 2px dashed #67bdff;
+            border-radius: 4px;
+        }
+        .wf-wfGoodsListStyle-four{
+            border: 2px dashed #67bdff;
+            border-radius: 4px;
+        }
+        
+    }
+    .wf-wfGoodsListStyle-one{
+        .wf-wfGoodsListStyle-header{
+            height: 80px;
+            background-color: #e8f7fd;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            border: 1px solid #fff;
+        }
+        &:hover{
+            box-shadow: 0 2px 43px -4px rgba(101, 101, 101, 0.19);
+        }
+    }
+    .wf-wfGoodsListStyle-two{
+        .wf-wfGoodsListStyle-header{
+            height:12px;
+            background-color: rgb(232, 247, 253);
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            border: 1px solid #fff;
+            // margin-right: 12px;
+        }
+        &:hover{
+            box-shadow: 0 2px 43px -4px rgba(101, 101, 101, 0.19);
+        }
+    }
+    .wf-wfGoodsListStyle-three{
+        .wf-wfGoodsListStyle-header {
+            height: 29px;
+            background-color: #e8f7fd;
+            padding: 10px;
+            cursor: pointer;
+            border-radius:4px;
+            border: 1px solid #fff;
+        }
+        &:hover{
+            box-shadow: 0 2px 43px -4px rgba(101, 101, 101, 0.19);
+        }
+    }
+    .wf-wfGoodsListStyle-four{
+        .wf-wfGoodsListStyle-header {
+            height: 8px;
+            background-color: #e8f7fd;
+            padding: 12px;
+            cursor: pointer;
+            border-radius: 4px;
+            border: 1px solid #fff;
+        }
+        &:hover{
+            box-shadow: 0 2px 43px -4px rgba(101, 101, 101, 0.19);
+        }
+    }
+    .wf-wfGoodsListStyle-text{
+        text-align: center;
+    }
+}

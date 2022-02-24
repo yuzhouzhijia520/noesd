@@ -1,0 +1,166 @@
+.wf-DIY-addDiy{
+    border-top: 1px solid #f1f1f1;
+    min-width: 1500px;
+    @keyframes addborder{
+        from{
+            border: 0px dashed #67bdff;
+        }
+        to{
+            border: 1px dashed #67bdff;
+        }
+    }
+    .wf-addDiy-options{
+        background-color: #fff;
+        margin-bottom: 15px;
+        margin-left: -20px;
+        margin-right: -20px;
+        .wf-addDiy-save{
+            margin: 5px 5px 5px 20px;
+            cursor: pointer;
+            .icon{
+                &:active{
+                    color:#67bdff;
+                }
+            }
+            .text{
+                font-size: 12px;
+            }
+        }
+    }
+    .wf-addDiy-row{
+        .wf-addDiy-col-first{
+            margin-right: 20px;
+            .box-card{
+                .text{
+                    /deep/ .el-scrollbar__wrap{
+                        max-height: 680px;
+                    }
+                    .wf-addDiy-itemCol{
+                        text-align: center;
+                        background-color: #fff;
+                        padding: 10px;
+                        margin: 0 6px;
+                        cursor: pointer;
+                        margin-bottom: 12px;
+                        border: 1px solid #fff;
+                        border-radius: 4px;
+                        font-size: 12px;
+                        
+                        &:active{
+                            background-color: #fff;
+                            transform: translateY(2px);
+                            box-shadow: 0 2px 5px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.05);
+                        }
+                        .wf-addDiy-itemDiv{
+                            text-align: center;
+                            height: 34px;
+                        }
+                        // .wf-addDiy-text{
+                        //     max-width: 70px;
+                        //     overflow: hidden;
+                        //     text-overflow: ellipsis;
+                        //     white-space: nowrap;
+                        //     margin-left: 20px;
+                        //     margin-top: 5px;
+                        // }
+                         .wf-addDiy-text{
+                            margin-top: 5px;
+                        }
+                        p{
+                            margin-bottom: 0;
+                            margin-top: 8px;
+                        }
+                    }
+                }
+                .wf-addDiy-col-first-scr{
+                    height: 780px;
+                }
+            }
+        }
+        .wf-addDiy-col-second{
+            margin-right: 10px;
+            .text{
+                height: 667px;
+                padding-top: 115px;
+                padding-right: 22px;
+                padding-left: 22px;
+                width: 322px;
+                background: url('../../../../../assets/admin_img/shop_admin_img/DIY/shopImg/phoneCreate.png') no-repeat;
+                background-size: 100% 100%;
+                top: calc(50% - 484px);
+                left: calc(50% - 234px);
+            }
+        }
+        .wf-addDiy-col-third{
+            min-width: 550px;
+        }
+    }
+    .wf-addDiy-button{
+        background-color: #fff;
+        text-align: center;
+        padding: 8px 0px;
+        margin-left: -20px;
+        margin-right: -20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 999;
+        button{
+            margin-right: 150px;
+            background-color: rgb(64, 158, 255);
+            color:#fff;
+        }
+    }
+}
+.flip-list-move {
+    transition: transform 0.5s;
+}
+
+.no-move {
+    transition: transform 0s;
+}
+
+.ghost {
+    opacity: 0.5;
+    background: #c8ebfb;
+}
+
+.list-group {
+    min-height: 20px;
+    overflow-y: scroll;
+    max-height: 554px;
+}
+
+// .list-group-item {
+//     cursor: move;
+//     position: relative;
+//     z-index:999;
+//     .list-group-item-div{
+//         position: absolute;
+//         background-color: rgba(0,0,0,0);
+//         bottom: 3px;
+//         right: 17px;
+//         flex-direction: row;
+//         z-index: 2;
+//         width: auto;
+//         a{
+//             display: inline-block;
+//             background-color: rgba(117, 116, 116, 0.83);
+//             width: 44px;
+//             height: 22px;
+//             color: #fff;
+//             margin-right: 3px;
+//             border-radius: 2px;
+//             text-align: center;
+//             font-size: 14px;
+//             cursor: pointer;
+//             &:hover{
+//                 background-color: rgba(93, 92, 92, 0.83);
+//             }
+//         }
+//     }
+// }
+
+.list-group-item i {
+    cursor: pointer;
+}
